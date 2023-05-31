@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sathvik's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/ddf0efaef9.js" crossorigin="anonymous"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+  </style>
+</head>
+<body>
+    <nav>
+        <img src="logo.png" class="logo">
+        <ul>
+            <li><a href="#header" class="homebut">Home</a></li>
+            <li><a href="#about" class="aboutbut">About</a></li>
+            <li><a href="#certificates" class="servicesbut">Certificates</a></li>
+            <li><a href="#projects" class="portfoliobut">Projects</a></li>
+            <li><a href="#contact" class="contactbut">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="header">
+        <div class="container">
+            <div class="row">
+                <div class="header-text">
+                    <h1>Hi, I'm Sathvik <span>.</span></h1>
+                    <p>Computer Science Student</p>
+                </div>
+                <div class="hi">
+                    <img src="istockphoto-1045899866-612x612.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ------------about----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col1">
+                    <img src="user.png">
+                </div> -->
+                <div class="col2">
+                    <h1 class="subtitle">About Me</h1>
+                    <div class="about-text">
+                        <p>I'm a Computer Science under graduate seeking for an opportunity to pursue a highly rewarding career and
+                            healthy work environment where I can utilize my skills and knowledge efficiently for the organizational growth.
+                        </p>
+                    </div>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+                    </div>
+                    <!-- <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>tgheavvzhgvctyfasjhvvyvdcb hgvcnv vgcghchvzhgghvfdcv</li>
+                            <li><span>Java</span><br>tgheavvzhgvctyfasjhvvyvdcb hgvcnv vgcghchvzhgghvfdcv</li>
+                            <li><span>Python</span><br>tgheavvzhgvctyfasjhvvyvdcb hgvcnv vgcghchvzhgghvfdcv</li>
+                        </ul>
+                    </div> -->
+                    <div class="tab-contents" id="achievements">
+                        <ul>
+                            <li><span>ICPC Global Contest</span><br>Awarded by International Collegiate Programming Contest for 1st round of the contest</li>
+                            <li><span>Switch Code Contest</span><br>Awarded by Code Club at MLRIT for winning the contest</li>
+                            <li><span>Antragna Coding Contest</span><br>Awarded by Datech club at Malla Reddy University for winning the contest</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>10th Grade</span><br>Narayana High School</li>
+                            <li><span>Intermediate</span><br>Narayana Jr. College</li>
+                            <li><span>B.Tech</span><br>MLR Institute of Technology</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------services----------------- -->
+    <div id="certificates">
+        <div class="container">
+            <h1 class="subtitle">My Certificates</h1>
+            <div class="certificates-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Data Structures & Algorithms</h2>
+                    <p>Certified by Smart Interviews for DSA course completion</p>
+                    <a href="https://smartinterviews.in/certificate/2ab5e711">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-user-tie"></i>
+                    <h2>Complete Interview Preparation</h2>
+                    <p>Certified by Geeks for Geeks for CIP course completion</p>
+                    <a href="https://media.geeksforgeeks.org/courses/certificates/8f0b727d2781ee308155660ea680591d.pdf">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-cloud"></i>
+                    <h2>Cloud Computing</h2>
+                    <p>Certified by NPTEL for cloud computing course completion</p>
+                    <a href="https://drive.google.com/file/d/19fMKX7PB3ECU_qbGK3jzZgpEn0cWHiU_/view?usp=sharing">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------portfolio--------------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="subtitle">My Projects</h1>
+            <div class="projects-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>Personal Website</h3>
+                        <p>Designed my personal website using html, css and javascript</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Text Summarizer</h3>
+                        <p>Developed a Machine Learning model for summarizing the text</p>
+                        <a href="https://github.com/sathvikkreddy/TextSummarizer"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>Destop App</h3>
+                        <p>Developing a destop application using .Net</p>
+                        <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
+                    </div>
+                </div>
+            </div>
+            <!-- <a href="#" class="btn">See more</a> -->
+        </div>
+    </div>
+    <!-- ---------------contact---------------- -->
+    <div id="contact">
+        <div class="container">
+            <h1 class="subtitle">Contact Me</h1>
+            <div class="row">
+                <div class="leftcol">
+                    <p><i class="fa-solid fa-envelope"></i> sathvikreddy8685@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 9059010007</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/sathvikkreddy/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/sathvikkreddy/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100008749540730"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://github.com/sathvikkreddy"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="Sathvik's Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <!-- <div class="rightcol">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="1" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Send</button>
+                    </form>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+                tablink.classList.remove("active-link2");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+</body>
+</html>
